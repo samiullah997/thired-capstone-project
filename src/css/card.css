@@ -1,55 +1,55 @@
 .homeCard {
-    width: 49%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
 }
 
 .card-desc {
-    width: 19%;
-    height: 52%;
+  width: 19%;
+  height: 52%;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  color: #fff;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.post-name {
+  font-size: 30px;
+}
+
+.card-sub-desc {
+  font-size: 15px;
+}
+
+.btn-more {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .card-desc {
+    width: 48%;
+    height: 35%;
     display: flex;
     position: absolute;
     flex-direction: column;
     justify-content: end;
     align-items: flex-end;
     color: #fff;
-}
-
-.card-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    cursor: pointer;
-}
-
-.post-name {
-    font-size: 30px;
-}
-
-.card-sub-desc {
-    font-size: 15px;
-}
-
-.btn-more {
-    background-color: rgba(255,255,255, 0.3);
-    color: white;
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-@media (max-width: 768px){
-    .card-desc {
-        width: 48%;
-        height: 35%;
-        display: flex;
-        position: absolute;
-        flex-direction: column;
-        justify-content: end;
-        align-items: flex-end;
-        color: #fff;
-    }
+  }
 }
