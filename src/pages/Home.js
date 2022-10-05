@@ -1,8 +1,10 @@
 import React from 'react';
-import '../css/home.css';
+import Container from '../components/Container';
 
 const Home = () => (
-  <h2>Home</h2>
+  <>
+    <Container />
+  </>
 );
 
 export default Home;
