@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import '../css/card.css';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Card = ({
   slug, name, image, firstAppearance, publisher,
@@ -12,29 +14,32 @@ const Card = ({
         <img className="card-img" src={image} alt={`img-${slug}`} />
       </a>
       <div className="card-desc">
-        <h5 className="post-name">{name}</h5>
-        <p className="card-sub-desc">
-          <span className="">First Appearance:</span>
-          {firstAppearance === '-' ? (
-            <span className="">
-              Not Found
-            </span>
-          ) : (
-            firstAppearance
-          )}
-        </p>
         <Link to={`/heroes/${slug}`}>
           <button
             type="button"
             className="btn-more"
           >
-            know more
+            <FontAwesomeIcon icon={faArrowRight} />
           </button>
         </Link>
-        <div className="">
-          {publisher || (
-          <span className="">No Publisher</span>
-          )}
+        <div className="card-sub-desc">
+          <h5 className="post-name">{name}</h5>
+          <p className="card-sub-desc">
+            <span className="">First Appearance:</span>
+            {firstAppearance === '-' ? (
+              <span className="">
+                Not Found
+              </span>
+            ) : (
+              firstAppearance
+            )}
+          </p>
+
+          <div className="">
+            {publisher || (
+            <span className="">No Publisher</span>
+            )}
+          </div>
         </div>
       </div>
     </div>

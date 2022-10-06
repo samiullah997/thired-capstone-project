@@ -12,11 +12,9 @@ const Navbar = () => (
           <Link to="/">
             <FontAwesomeIcon icon={faLessThan} />
           </Link>
-          {' '}
-          2025
         </h2>
       </div>
-      <p>most views</p>
+      <p className="nav-title">Top Heroes</p>
       <div className="nav-icons">
         <FontAwesomeIcon icon={faMicrophone} />
         <FontAwesomeIcon icon={faGear} />

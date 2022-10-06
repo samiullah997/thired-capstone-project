@@ -12,7 +12,7 @@
   display: flex;
   position: absolute;
   flex-direction: column;
-  justify-content: end;
+  justify-content: space-between;
   align-items: flex-end;
   color: #fff;
 }
@@ -25,15 +25,18 @@
 }
 
 .post-name {
+  width: auto;
   font-size: 30px;
+  text-align: end;
 }
 
 .card-sub-desc {
   font-size: 15px;
+  text-align: end;
 }
 
 .btn-more {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(8, 8, 8, 0.9);
   color: white;
   border: 1px solid white;
   padding: 10px;
@@ -48,8 +51,8 @@
     display: flex;
     position: absolute;
     flex-direction: column;
-    justify-content: end;
     align-items: flex-end;
+    justify-content: space-between;
     color: #fff;
   }
 }
