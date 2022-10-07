@@ -1,0 +1,19 @@
+.App {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+}

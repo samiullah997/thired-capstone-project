@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: lightgray;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-image {
+  width: 20%;
+  height: 20%;
+}
+
+.details-wrapper {
+  width: 100%;
+}
+
+.details-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.power-state {
+  text-align: start;
+}
+
+.power-state-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-row {
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.biography {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.details-bio {
+  text-align: start;
+}
+
+.details-full-name {
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-aliases {
+  text-align: start;
+}
+
+.details-aliases-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.birth-disc {
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.connections {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.connections p {
+  text-align: start;
+}
+
+.details-connection {
+  text-align: start;
+}
+
+.affiliation {
+  text-align: start;
+}
+
+.relatives {
+  text-align: start;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: start;
+}
+
+.occupation {
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.occupation p {
+  font-size: 13px;
+}
+
+.base {
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .details-image {
+    width: 100%;
+    height: 20%;
+  }
+}
