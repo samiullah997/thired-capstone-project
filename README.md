@@ -40,7 +40,7 @@ To run tests on this project if you tweaked something, run the following command
 
 ### LIVE DEMO
 
-Check the live demo here [Comming Soon]()
+Check the live demo here [Live Demo](https://github.com/samiullah997/thired-capstone-project)
 
 ### LIVE VIDEO LINK
 
@@ -68,6 +68,10 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
+- Microverse
+- Nelson Sakwa
+- Ballhead App
+- Attribution CC (Creative Commons)
 - etc
 
 ## 📝 License
