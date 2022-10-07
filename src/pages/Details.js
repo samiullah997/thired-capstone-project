@@ -1,6 +1,6 @@
 import React from 'react';
 import ProptTypes from 'prop-types';
-import HeroContainer from '../components/HeroDetails';
+import HeroDetail from '../components/HeroDetails';
 
 const Details = ({ slug }) => {
   const [,, heroSlug] = slug.split('/'); // prop => /heroes/149-captain-america
@@ -10,7 +10,7 @@ const Details = ({ slug }) => {
   return (
     <>
       <div>
-        <HeroContainer hero={name} />
+        <HeroDetail hero={name} />
       </div>
     </>
   );

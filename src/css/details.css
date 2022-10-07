@@ -9,11 +9,17 @@
   gap: 10px;
   background-color: lightgray;
   padding: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .details-image {
+  width: 20%;
+  height: 20%;
+}
+
+.details-wrapper {
   width: 100%;
-  height: 50%;
 }
 
 .details-name {
@@ -142,4 +148,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .details-image {
+    width: 100%;
+    height: 20%;
+  }
 }

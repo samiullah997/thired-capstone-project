@@ -6,7 +6,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Card = ({
-  slug, name, image, firstAppearance, publisher,
+  id, slug, name, image, firstAppearance, publisher,
 }) => (
   <>
     <div className="homeCard">
@@ -37,15 +37,21 @@ const Card = ({
 
           <div className="">
             {publisher || (
-            <span className="">No Publisher</span>
+              <span className="">No Publisher</span>
             )}
           </div>
+          <span className="">
+            ID:
+            {' '}
+            {id}
+          </span>
         </div>
       </div>
     </div>
   </>
 );
 Card.propTypes = {
+  id: PropTypes.number.isRequired,
   slug: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,

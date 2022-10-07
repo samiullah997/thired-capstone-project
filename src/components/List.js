@@ -11,6 +11,7 @@ const List = ({ heroes }) => (
       }) => (
         <Card
           key={id}
+          id={id}
           name={name}
           image={image}
           slug={slug}
