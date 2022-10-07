@@ -44,7 +44,7 @@ Check the live demo here [Live Demo](https://github.com/samiullah997/thired-caps
 
 ### LIVE VIDEO LINK
 
-Check the live demo here [Video Links](https://www.loom.com/share/59121c98742a40a997f3875811a51618)
+Check the live demo here [Video Links](https://www.loom.com/share/d138d8d6ca024989ae684e59c1b8680c)
 
 ## Authors
 

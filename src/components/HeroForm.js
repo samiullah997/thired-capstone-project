@@ -8,7 +8,7 @@ const HeroForm = ({ publishers }) => {
   const [publisher, setPublisher] = useState('');
   const dispatch = useDispatch();
   const handleSelect = (filter) => {
-    setPublisher(filter);
+    setPublisher(filter.target.value || null);
   };
 
   const handleSubmitPublisher = (e) => {
@@ -46,7 +46,6 @@ const HeroForm = ({ publishers }) => {
             Default 20
           </button>
           <button
-            className=""
             type="submit"
           >
             Filter

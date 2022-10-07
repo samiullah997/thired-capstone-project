@@ -23,7 +23,7 @@ const api = {
         slug,
         image,
         firstAppearance,
-        publisher,
+        publisher: publisher || 'No Publisher',
       }),
     );
     return heroes;

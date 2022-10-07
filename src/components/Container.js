@@ -19,10 +19,7 @@ const Container = () => {
     dispatch(cleanupHero({})); // prevents info leak
   }, [dispatch]);
 
-  const getPublishers = () => [...new Set(heroes.map(({ publisher }) => {
-    if (!publisher) return 'No Publisher';
-    return publisher;
-  }))];
+  const getPublishers = () => [...new Set(heroes.map(({ publisher }) => publisher))];
 
   const getHeroesToRender = () => (filteredHeroes.length === 0 ? heroes : filteredHeroes);
 
