@@ -72,6 +72,7 @@ Give a ⭐️ if you like this project!
 - Nelson Sakwa
 - Ballhead App
 - Attribution CC (Creative Commons)
+- etc
 
 ## 📝 License
 
