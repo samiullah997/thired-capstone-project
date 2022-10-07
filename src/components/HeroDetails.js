@@ -17,8 +17,9 @@ const HeroDetails = ({ hero }) => {
 
   useEffect(() => {
     document.title = `Heroic | ${toTitleCase(hero.replace('-', ' '))}`;
-    dispatch(cleanupHero({})); // prevents info leak
+    dispatch(cleanupHero({}));
     dispatch(getHero(hero));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [hero]);
 
   let heroInfo;
