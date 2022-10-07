@@ -68,7 +68,10 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- Microverse
+- Nelson Sakwa
+- Ballhead App
+- Attribution CC (Creative Commons)
 
 ## 📝 License
 

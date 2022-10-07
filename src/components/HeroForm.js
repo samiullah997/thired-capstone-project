@@ -14,7 +14,6 @@ const HeroForm = ({ publishers }) => {
   const handleSubmitPublisher = (e) => {
     e.preventDefault();
     dispatch(filterHeroes(publisher));
-    console.log(publisher);
   };
 
   const handleDefault20 = () => {
