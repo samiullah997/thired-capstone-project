@@ -40,11 +40,11 @@ To run tests on this project if you tweaked something, run the following command
 
 ### LIVE DEMO
 
-Check the live demo here [Live Demo](https://github.com/samiullah997/thired-capstone-project)
+Check the live demo here [Live Demo](https://63409b0245e65f0009327e87--fascinating-pastelito-bbdd20.netlify.app/)
 
 ### LIVE VIDEO LINK
 
-Check the live demo here [Video Links](https://www.loom.com/share/59121c98742a40a997f3875811a51618)
+Check the live demo here [Video Links](https://www.loom.com/share/d138d8d6ca024989ae684e59c1b8680c)
 
 ## Authors
 

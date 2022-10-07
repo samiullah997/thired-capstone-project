@@ -16,13 +16,11 @@ const Container = () => {
   useEffect(() => {
     document.title = 'Heroic';
     if (heroes.length === 0) dispatch(getHeroes());
-    dispatch(cleanupHero({})); // prevents info leak
+    dispatch(cleanupHero({}));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dispatch]);
 
-  const getPublishers = () => [...new Set(heroes.map(({ publisher }) => {
-    if (!publisher) return 'No Publisher';
-    return publisher;
-  }))];
+  const getPublishers = () => [...new Set(heroes.map(({ publisher }) => publisher))];
 
   const getHeroesToRender = () => (filteredHeroes.length === 0 ? heroes : filteredHeroes);
 
